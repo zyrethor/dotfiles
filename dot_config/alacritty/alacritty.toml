@@ -1,0 +1,58 @@
+import = ["/home/ian/.config/alacritty/themes/themes/onedark.toml"]
+
+[font]
+size = 13
+
+[font.normal]
+family = "Consolas"
+# family = "Hack Nerd Font"
+# family = "JetBrainsMono Nerd Font"
+# family = "DroidSansM Nerd Font Mono"
+# family = "BlexMono Nerd Font Mono"
+style = "Regular"
+
+[font.bold]
+family = "Consolas"
+# family = "Hack Nerd Font"
+# family = "JetBrainsMono Nerd Font"
+# family = "DroidSansM Nerd Font Mono"
+# family = "BlexMono Nerd Font Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "Consolas"
+# family = "Hack Nerd Font"
+# family = "JetBrainsMono Nerd Font"
+# family = "BlexMono Nerd Font Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "Consolas"
+# family = "Hack Nerd Font"
+# family = "JetBrainsMono Nerd Font"
+# family = "BlexMono Nerd Font Mono"
+style = "Italic"
+
+
+[[keyboard.bindings]]
+action = "ToggleFullscreen"
+key = "F11"
+
+[scrolling]
+history = 100000
+multiplier = 3
+
+[shell]
+args = ["-l", "-c", "tmux"]
+program = "/usr/bin/zsh"
+
+[window]
+opacity = 1.0
+
+[window.dimensions]
+columns = 136
+lines = 36
+
+# [window.padding]
+# x = 6
+# y = 6

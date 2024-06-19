@@ -1,0 +1,45 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+# alias ls='ls --color=auto'
+# alias ll='ls -al'
+# alias ls='exa'
+# alias ll='exa -al'
+alias grep='grep --color=auto'
+PS1='[\u@\h \W]\$ '
+
+export GTK_IM_MODULE=ibus
+export XMODIFIERS=@im=ibus
+export QT_IM_MODULE=ibus
+
+# export GTK_IM_MODULE=fcitx
+# export QT_IM_MODULE=fcitx  
+# export XMODIFIERS=@im=fcitx
+
+
+if [ -e /usr/share/nvm/init-nvm.sh ]; then
+  source /usr/share/nvm/init-nvm.sh
+fi
+
+
+# source /usr/share/nvm/init-nvm.sh
+
+
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+export PATH="$HOME/.local/bin:$PATH"
+# export PATH=$PATH":/home/lpy/.local/bin"
+# export PATH="${PATH}:/home/lpy/.local/bin"
+# export PATH="${PATH}:/home/lpy/Qt/Tools/QtDesignStudio/bin"
+
+
+
+export QT_QPA_PLATFORMTHEME="qt5ct"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"

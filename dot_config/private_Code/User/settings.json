@@ -1,0 +1,95 @@
+{
+    "editor.cursorBlinking": "solid",
+    "editor.codeActionsOnSave": {
+
+    },
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"]
+        },
+        {
+            "before": ["<C-j>"],
+            "after": ["<Left>"]
+        },
+        {
+            "before": ["<C-k>"],
+            "after": ["<Right>"]
+        },
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<Space>", "w"],
+            "after": [":", "w", "<Enter>"]
+        }
+    ],
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "editor.tabSize": 2,
+    "redhat.telemetry.enabled": false,
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "One Dark",
+    "editor.fontFamily": "'JetBrainsMono Nerd Font Mono', 'Monaco Nerd Font Mono', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "name": "One Dark italic",
+          "scope": [
+            "comment",
+            "entity.other.attribute-name",
+            "keyword",
+            "markup.underline.link",
+            "storage.modifier",
+            "storage.type",
+            "string.url",
+            "variable.language.super",
+            "variable.language.this"
+          ],
+          "settings": {
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "name": "One Dark italic reset",
+          "scope": [
+            "keyword.operator",
+            "keyword.other.type",
+            "storage.modifier.import",
+            "storage.modifier.package",
+            "storage.type.built-in",
+            "storage.type.function.arrow",
+            "storage.type.generic",
+            "storage.type.java",
+            "storage.type.primitive"
+          ],
+          "settings": {
+            "fontStyle": ""
+          }
+        }
+      ]
+    },
+    "cmake.showOptionsMovedNotification": false,
+    "json.schemas": [],
+    "notebook.output.scrolling": true,
+    "editor.indentSize": "tabSize",
+    "[cpp]": {
+      "editor.tabSize": 2,
+      "editor.detectIndentation": true,
+      "editor.dragAndDrop": false
+    },
+    "[python]": {
+      "editor.tabSize": 4,
+      "editor.detectIndentation": true,
+      "editor.dragAndDrop": false
+    },
+    "editor.insertSpaces": false,
+    "notebook.cellToolbarLocation": {
+      "default": "right",
+      "jupyter-notebook": "right"
+    },
+    "notebook.lineNumbers": "on",
+    "editor.fontSize": 15,
+    "markdown-preview-enhanced.previewTheme": "github-dark.css",
+    "markdown-preview-enhanced.codeBlockTheme": "one-dark.css",
+    "markdown-preview-enhanced.revealjsTheme": "black.css",
+    "terminal.integrated.defaultProfile.linux": "zsh"
+}
