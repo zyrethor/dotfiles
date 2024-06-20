@@ -89,6 +89,8 @@ ZSH_HIGHLIGHT_STYLES[command]='fg=blue'
 ZSH_HIGHLIGHT_STYLES[path]='fg=cyan'
 ZSH_HIGHLIGHT_STYLES[default]='fg=cyan'
 
+ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+
 alias ls='exa --icons'
 alias la='exa --icons -a'
 alias ll='exa -agl -F -s=mod -r --icons --git --group-directories-first --git'

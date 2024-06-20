@@ -44,7 +44,7 @@ multiplier = 3
 
 [shell]
 args = ["-l", "-c", "tmux"]
-program = "/usr/bin/zsh"
+program = "/usr/bin/fish"
 
 [window]
 opacity = 1.0

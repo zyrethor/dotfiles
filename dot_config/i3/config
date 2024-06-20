@@ -18,7 +18,7 @@ font xft:URWGothic-Book 11
 
 floating_modifier $mod
 
-# exec_always --no-startup-id picom &
+exec_always --no-startup-id picom &
 
 # adjust brightness to 0.4 at startup
 exec --no-startup-id xrandr --output $(xrandr --query | grep " connected" | cut -d" " -f1) --brightness 0.4

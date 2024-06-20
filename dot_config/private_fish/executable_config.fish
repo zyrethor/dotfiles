@@ -16,6 +16,7 @@ if status is-interactive
     alias google-chrome="google-chrome-stable"
     
     alias ncm='ncmpcpp'
+    alias neofetch='fastfetch'
     
     zoxide init fish | source
     starship init fish | source
