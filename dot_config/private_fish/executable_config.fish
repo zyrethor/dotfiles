@@ -17,6 +17,8 @@ if status is-interactive
     
     alias ncm='ncmpcpp'
     alias neofetch='fastfetch'
+    alias ytd='yt-dlp'
+    alias ytda='yt-dlp --extract-audio'
     
     zoxide init fish | source
     starship init fish | source
