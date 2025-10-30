@@ -1,1 +1,15 @@
--o ~/Videos/%(title)s.%(ext)s
+# -o ~/Videos/%(title)s.%(ext)s
+# --format-sort res:1080
+
+# Select video and audio streams:
+# - "bestvideo[ext=mp4][height<=1080]" selects the best video stream in MP4 format at a maximum of 1080p.
+# - "bestaudio[ext=m4a]" selects the best M4A audio stream.
+# - The fallback "best[ext=mp4][height<=1080]" is used if separate streams aren't available.
+-f "bestvideo[ext=mp4][height<=1080]+bestaudio[ext=m4a]/best[ext=mp4][height<=1080]"
+
+# Recode the video to MP4 if it isn't already in that format.
+--recode-video mp4
+
+# Output template (optional)
+-o "~/Videos/downloading/%(title).150B.%(ext)s"
+

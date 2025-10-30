@@ -1,10 +1,10 @@
-import = ["/home/ian/.config/alacritty/themes/themes/onedark.toml"]
 
 [font]
-size = 13
+size = 12
 
 [font.normal]
-family = "Consolas"
+# family = "Consolas"
+family = "Fira Code"
 # family = "Hack Nerd Font"
 # family = "JetBrainsMono Nerd Font"
 # family = "DroidSansM Nerd Font Mono"
@@ -12,7 +12,8 @@ family = "Consolas"
 style = "Regular"
 
 [font.bold]
-family = "Consolas"
+# family = "Consolas"
+family = "Fira Code"
 # family = "Hack Nerd Font"
 # family = "JetBrainsMono Nerd Font"
 # family = "DroidSansM Nerd Font Mono"
@@ -42,7 +43,7 @@ key = "F11"
 history = 100000
 multiplier = 3
 
-[shell]
+[terminal.shell]
 args = ["-l", "-c", "tmux"]
 program = "/usr/bin/fish"
 
@@ -52,6 +53,11 @@ opacity = 1.0
 [window.dimensions]
 columns = 136
 lines = 36
+
+[general]
+import = ["/home/ian/.config/alacritty/themes/themes/onedark.toml"]
+
+[terminal]
 
 # [window.padding]
 # x = 6

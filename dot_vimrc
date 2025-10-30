@@ -424,7 +424,7 @@ nnoremap <Leader>d :lopen<CR>
 let g:lightline = {}
 
 let g:lightline = {
-  \ 'colorscheme': 'solarized',
+  \ 'colorscheme': 'onedark',
   \ }
 
 let g:lightline.component_expand = {
@@ -528,7 +528,7 @@ map <Leader>k <Plug>(easymotion-k)
 
 
 nnoremap <Leader>w :w<CR>
-nnoremap <Leader>q :q<CR>
+nnoremap <space>q :q<CR>
 nnoremap <Leader>Q :q!<CR>
 nnoremap <Leader>so :w<CR>:so ~/.vimrc<CR>
 nnoremap L :tabnext<CR>
@@ -580,6 +580,11 @@ let cpp_no_curly_error=1
 set noshowmode
 set showcmd
 autocmd BufWritePre * :%s/\s\+$//e
+
+"clipboard
+set clipboard=unnamedplus
+vnoremap <C-c> "+y
+
 
 
 nnoremap / :let @/=""<CR>/

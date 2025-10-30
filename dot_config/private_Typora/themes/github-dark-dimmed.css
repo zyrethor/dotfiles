@@ -96,3 +96,12 @@ select[disabled]:hover {
 	opacity: 0.5;
 	border: 1px solid #8b949e;
 }
+
+/* Centered image using a custom class */
+.centered-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
